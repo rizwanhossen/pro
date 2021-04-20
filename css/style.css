@@ -1,0 +1,313 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* common css here  */
+a {
+  text-decoration: none;
+}
+.head {
+  text-align: center;
+}
+.head h2 {
+  font-family: "Alata", sans-serif;
+  color: #102039;
+  font-weight: 400;
+  font-size: 42px;
+  padding-bottom: 50px;
+}
+.head p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #7a7f83;
+}
+
+/* nav css here  */
+#header {
+  position: absolute;
+  width: 100%;
+}
+.navbar-nav .nav-link {
+  padding-right: 50px !important;
+  padding-left: 0;
+  color: rgb(255, 255, 255);
+  font-family: "Alata", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.navbar .sign-up {
+  padding: 17px 47px;
+  background-color: #24e09b;
+  color: #ffff;
+  font-family: "Alata", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* banner paet css  */
+#banner {
+  background-image: url(../images/banner/banner.png);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#banner .banner-text {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#banner .banner-text h1 {
+  font-family: "Alata", sans-serif;
+  font-size: 61px;
+  font-weight: 400;
+  color: #ffff;
+}
+#banner .banner-text p {
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffff;
+  padding-top: 51px;
+  padding-bottom: 35px;
+}
+#banner .banner-text a {
+  width: 245px;
+  padding: 23px 33px;
+  background-color: #24e09b;
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  display: block;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#banner .banner-text span {
+  padding-top: 23px;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ffff;
+}
+
+#banner .image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  margin-right: -50px;
+  margin-left: 50px;
+}
+#banner .image img {
+  width: 100%;
+}
+/* Exclusive  paet css  */
+#exclusive {
+  padding: 120px 0;
+}
+
+#exclusive .card {
+  text-align: center;
+  border: 1px solid #f2f4fb;
+  padding: 42px 38px;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+  margin-top: 100px;
+}
+#exclusive .card:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(23, 44, 221, 0.2);
+}
+#exclusive .card h5 {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  color: #102039;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+}
+#exclusive .card p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #878c8f;
+  padding: 40px 0;
+}
+#exclusive .card:hover h5 {
+  color: blue;
+}
+#exclusive .card .icon {
+  margin: 0 auto;
+}
+#exclusive .card .icon .image {
+  width: 185px;
+  height: 185px;
+  background-color: #f2f4fb;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#exclusive .card img {
+  width: 75px;
+  padding-top: 53px;
+}
+/* interface paet css  */
+#interface {
+  padding: 120px 0;
+}
+#interface .image {
+  margin-left: -80px;
+}
+#interface .text {
+}
+#interface .text h5 {
+  font-family: "Alata", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  color: #102039;
+  padding-bottom: 45px;
+}
+#interface .text p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #878c8f;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 20px;
+}
+#interface .text a {
+  margin-top: 50px;
+  width: 245px;
+  padding: 23px 49px;
+  background-color: #24e09b;
+  color: #ffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  display: block;
+  transition: all ease-in-out 0.3s;
+  -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;
+  -ms-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* counter paet css  */
+#counter {
+  background-image: url(../images/counter/banner.png);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#counter .count{
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #546fe1;
+    transition: all ease-in-out .3s;
+    -webkit-transition: all ease-in-out .3s;
+    -moz-transition: all ease-in-out .3s;
+    -ms-transition: all ease-in-out .3s;
+    -o-transition: all ease-in-out .3s;
+    padding: 40px 10px;
+    margin-bottom: 100px;
+}
+#counter .count:hover{
+    border-color: #24e09b;
+}
+
+#counter span{
+    display: block;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffff;
+    padding-top: 28px;
+    
+}
+#counter .countfect{
+    display: block;
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 38px;
+    color: #ffff;
+    padding-top: 28px;
+    
+}
+#counter .text{}
+#counter .text h2{
+    font-family: 'Alata', sans-serif;
+
+    font-weight: 400;
+    font-size: 50px;
+    color: #ffff;
+}
+#counter .button a{
+    width: 245px;
+    padding: 23px 66px;
+    background-color: #24e09b;
+    color: #ffff;
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    display: block;
+    transition: all ease-in-out 0.3s;
+    -webkit-transition: all ease-in-out 0.3s;
+    -moz-transition: all ease-in-out 0.3s;
+    -ms-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* banner paet css  */
+/* banner paet css  */
+/* banner paet css  */
+/* banner paet css  */
+/* banner paet css  */
+/* banner paet css  */
+/* banner paet css  */
